@@ -1,0 +1,10 @@
+{
+  "name": "migration-marshal",
+  "version": "0.1.0",
+  "description": "Catches Postgres migrations that lock production tables before they ship. Flags the lock and downtime risk, explains it in plain language, and rewrites them for zero-downtime deploys.",
+  "author": {
+    "name": "Jon Davis"
+  },
+  "license": "MIT",
+  "keywords": ["postgres", "migrations", "ddl", "zero-downtime", "database", "locking", "prisma"]
+}

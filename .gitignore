@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# macOS
+.DS_Store
+
+# Editor / local
+*.log
+.env
+.env.local

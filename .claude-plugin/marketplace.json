@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "migration-marshal",
+  "owner": { "name": "Jon Davis" },
+  "metadata": {
+    "description": "migration-marshal: a Postgres migration-safety guardian for zero-downtime deploys.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "migration-marshal",
+      "source": "./",
+      "description": "Catches Postgres migrations that lock production tables before they ship. Flags the lock and downtime risk, explains it in plain language, and rewrites for zero-downtime deploys.",
+      "version": "0.1.0",
+      "category": "database"
+    }
+  ]
+}
